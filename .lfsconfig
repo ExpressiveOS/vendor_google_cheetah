@@ -1,4 +1,2 @@
 [lfs]
-    url = "https://gitlab.com/lunia0251/lfs-blobs.git/info/lfs"
-    pushurl = "ssh://git@gitlab.com/lunia0251/lfs-blobs.git"
-
+    url = "https://github.com/ExpressiveOS/blobs.git/info/lfs"
