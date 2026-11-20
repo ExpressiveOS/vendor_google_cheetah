@@ -2,12 +2,12 @@
 
 default
 000000
+(
+amarisoft_satellite
+00101"A5A72026
 &
 test001_amarisoft
 00101"ABCD2025
-$
-amarisoft_satellite
-00101"52FF
 
 
 test001_zz
@@ -242,6 +242,9 @@ Lycamobile
 
 	orange_be
 20610
+
+digi_be
+20612
 
 citymesh_be
 20613
@@ -271,6 +274,9 @@ telavox_be
 
 	orange_fr
 20800
+*
+coopvoce_it
+20801"434F4F50FFFFFFFFFF
 !
 
 webbing_hk
@@ -294,6 +300,9 @@ webbing_hk
 
 1and1_de
 208012894936
+ 
+coopvoce_it
+20801CoopVoce
 
 
 rakuten_jp
@@ -322,6 +331,24 @@ rakuten_jp
 
 aliv_bs
 20809	208090021
+!
+dish5gsa_us
+20809	208090073
+!
+dish5gsa_us
+20809	208090074
+!
+dish5gsa_us
+20809	208090075
+!
+dish5gsa_us
+20809	208090161
+!
+dish5gsa_us
+20809	208090162
+!
+dish5gsa_us
+20809	208090163
 
 sfr_fr
 20809
@@ -912,10 +939,10 @@ Lycamobile
 
 digi_it
 22236
-
+
 
-vianova_it
-22249vianova
+vianova_it
+22249
 
 iliad_it
 22250"F003
@@ -1596,6 +1623,9 @@ $
 lycamobile_no
 24223
 Lycamobile
+
+naf3_no
+24225
 
 dna_fi
 24403
@@ -1644,12 +1674,6 @@ Lycamobile
 
 bite_lv
 24705
-
-send_ee
-24801248010x2
-
-send_ee
-24801248010x3
 
 telia_ee
 24801
@@ -1867,6 +1891,9 @@ Lycamobile
 
 	gibtel_gi
 26601
+
+amigo_pt
+26801"25
 
 vodafone_pt
 26801
@@ -2006,8 +2033,8 @@ LycaMobile
 
 cytamobile_cy
 28001
-
-28010
+
+epic_cy
 28010
 
 primetel_cy
@@ -2162,9 +2189,45 @@ telekom_me
 
 popcorn_us
 302220"7911
+"
+dish5gsa_us
+302220	302220520
+"
+dish5gsa_us
+302220	302220521
+"
+dish5gsa_us
+302220	302220522
+"
+dish5gsa_us
+302220	302220718
+"
+dish5gsa_us
+302220	302220719
+"
+dish5gsa_us
+302220	302220720
 
 cape_ca
 302220	302220723
+"
+dish5gsa_us
+302220	302220724
+"
+dish5gsa_us
+302220	302220725
+"
+dish5gsa_us
+302220	302220726
+"
+dish5gsa_us
+302220	302220727
+"
+dish5gsa_us
+302220	302220728
+"
+dish5gsa_us
+302220	302220729
 
 
 popcorn_us
@@ -2654,6 +2717,9 @@ tmomvno_us
 "
 membersmobile_us
 310240"6926
+
+	lexvor_us
+310240"6927
 
 tello_us
 310240"6941
@@ -2893,6 +2959,9 @@ tmomvno_us
 "
 membersmobile_us
 310260"6926
+
+	lexvor_us
+310260"6927
 
 tello_us
 310260"6941
@@ -3328,12 +3397,6 @@ xfinity_us
 
 xfinity_us
 310599"BA01450000000000
-)
-spectrum_us
-310599"BA01490000000000
-$
-cox_us
-310599"BA01570000000000
 )
 xfinity2_us
 310599"BA01640000000000
@@ -4099,6 +4162,9 @@ $
 
 	gigsky_us
 312870
+!
+firstnet5gsa_us
+313100"52FF
 
 firstnet_us
 313100
@@ -6088,36 +6154,42 @@ webbing_hk
 
 45708
 45708
-
-chinamobile_cn
+
+cmcc_cn
 46000
 
-46001
+cu_cn
 46001
-
-chinamobile_cn
+
+cmcc_cn
 46002
 
-46003
+ct_cn
 46003
-
-chinamobile_cn
+
+cmcc_cn
 46004
 
-46005
+ct_cn
 46005
-
-chinamobile_cn
+
+cu_cn
+46006
+
+cmcc_cn
 46007
-
-chinamobile_cn
+
+cmcc_cn
 46008
 
-46009
+cu_cn
 46009
 
-46011
+ct_cn
 46011
+
+ct_cn
+46012
 
 fet_tw
 46601
@@ -8619,8 +8691,8 @@ teleena_zz
 
 pn_xx
 999340
-
-pn_xx
+
+	airbus_es
 999341
 
 pn_xx
@@ -8811,9 +8883,9 @@ teleena_zz
 
 pn_xx
 999399
-
-pn_xx
-99940
+
+naf3_no
+99940BANSHEE
 
 pn_xx
 999400
@@ -10793,4 +10865,4 @@ teleena_zz
 999998
 
 pn_xx
-999999Î°‘¦¦"´—°Ó
+999999ÔìÒ¼±"ÌÑ÷Õ

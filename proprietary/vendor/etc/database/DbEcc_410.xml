@@ -16,20 +16,31 @@
     <EccEntry mnc="01" number="911" category="0" condition="00000001" />
     <EccEntry mnc="01" number="115" category="0" condition="10010000" />
     <EccEntry mnc="01" number="15" category="0" condition="10010000" />
+    <EccEntry mnc="01" number="16" category="0" condition="10010000" />
     <!-- Ufone -->
     <EccEntry mnc="03" number="112" category="0" condition="00000001" />
     <EccEntry mnc="03" number="911" category="0" condition="00000001" />
+    <EccEntry mnc="03" number="115" category="0" condition="10010000" />
     <EccEntry mnc="03" number="15" category="0" condition="10010000" />
+    <EccEntry mnc="03" number="16" category="0" condition="10010000" />
+    <!-- Zong -->
+    <EccEntry mnc="04" number="112" category="0" condition="00000001" />
+    <EccEntry mnc="04" number="911" category="0" condition="00000001" />
+    <EccEntry mnc="04" number="115" category="0" condition="10010000" />
+    <EccEntry mnc="04" number="15" category="0" condition="10010000" />
+    <EccEntry mnc="04" number="16" category="0" condition="10010000" />
     <!-- Telenor -->
     <EccEntry mnc="06" number="112" category="0" condition="00000001" />
     <EccEntry mnc="06" number="911" category="0" condition="00000001" />
     <EccEntry mnc="06" number="115" category="0" condition="10010000" />
     <EccEntry mnc="06" number="15" category="0" condition="10010000" />
+    <EccEntry mnc="06" number="16" category="0" condition="10010000" />
     <!-- Jazz -->
     <EccEntry mnc="07" number="112" category="0" condition="00000001" />
     <EccEntry mnc="07" number="911" category="0" condition="00000001" />
     <EccEntry mnc="07" number="115" category="0" condition="10010000" />
     <EccEntry mnc="07" number="15" category="0" condition="10010000" />
+    <EccEntry mnc="07" number="16" category="0" condition="10010000" />
     <!-- #R stands for retail -->
     <EccEntry mnc="#R" number="112" category="0" condition="00000001" />
     <EccEntry mnc="#R" number="911" category="0" condition="00000001" />

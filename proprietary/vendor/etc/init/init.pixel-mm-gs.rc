@@ -31,7 +31,6 @@ service block_queue_depth /vendor/bin/hw/block_queue_depth
 
 on property:sys.boot_completed=1
     start block_queue_depth
-    write /sys/kernel/vendor_mm/filemap/async_readahead_adj_enable 1
 
 on property:vendor.zram.nr_tags=*
     setprop mmd.zram.writeback.nr_tags ${vendor.zram.nr_tags}

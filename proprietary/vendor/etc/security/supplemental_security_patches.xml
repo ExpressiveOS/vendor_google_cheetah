@@ -19,45 +19,279 @@
 
 <security-patches xmlns="http://schemas.android.com/security/patches/1.0">
     <patch>
-        <id>CVE-2025-36888</id>
+        <id>CVE-2025-10263</id>
     </patch>
     <patch>
-        <id>CVE-2026-7478</id>
+        <id>CVE-2025-57834</id>
     </patch>
     <patch>
-        <id>CVE-2026-15466</id>
+        <id>CVE-2026-0120</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0173</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0174</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0176</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0178</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0191</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0193</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-0195</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-9040</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-14447</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-18629</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-22166</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-43048</id>
     </patch>
     <patch>
         <id>CVE-2026-43499</id>
     </patch>
     <patch>
-        <id>CVE-2026-55299</id>
+        <id>CVE-2026-45201</id>
     </patch>
     <patch>
-        <id>CVE-2026-55307</id>
+        <id>CVE-2026-46242</id>
     </patch>
     <patch>
-        <id>CVE-2026-55330</id>
+        <id>CVE-2026-55297</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55309</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55311</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55312</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55316</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55321</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55334</id>
     </patch>
     <patch>
         <id>CVE-2026-55335</id>
     </patch>
     <patch>
-        <id>CVE-2026-56906</id>
+        <id>CVE-2026-55341</id>
     </patch>
     <patch>
-        <id>CVE-2026-56936</id>
+        <id>CVE-2026-55342</id>
     </patch>
     <patch>
-        <id>CVE-2026-56952</id>
+        <id>CVE-2026-55344</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55345</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55349</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55350</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55353</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55360</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-55363</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56878</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56880</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56883</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56884</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56887</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56890</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56897</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56899</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56909</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56910</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56911</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56912</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56913</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56916</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56926</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56929</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56930</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56933</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56934</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56935</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56938</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56943</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56944</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56946</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56949</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56951</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56956</id>
     </patch>
     <patch>
         <id>CVE-2026-56962</id>
     </patch>
     <patch>
-        <id>CVE-2026-57547</id>
+        <id>CVE-2026-56966</id>
     </patch>
     <patch>
-        <id>CVE-2026-58769</id>
+        <id>CVE-2026-56969</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56971</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56980</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56991</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-56995</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57004</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57005</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57009</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57010</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57013</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57036</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57037</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57038</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57041</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57043</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57048</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-57050</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58677</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58697</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58708</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58722</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58736</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58742</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-58984</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-64560</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-65584</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-65586</id>
+    </patch>
+    <patch>
+        <id>CVE-2026-74912</id>
     </patch>
 </security-patches>

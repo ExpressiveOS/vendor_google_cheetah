@@ -56,8 +56,17 @@ service modem_logging_enabled_change /vendor/bin/modem_logging_control ENABLED_C
     disabled
     oneshot
 
+service sysprop_listener_service /system/bin/sh -c "/system/bin/am start-foreground-service -n com.google.android.modem.pms/com.google.android.modem.pms.logging.internal.SystemPropertyListenerService"
+    class main
+    user system
+    group system
+    disabled
+    oneshot
+    seclabel u:r:shell:s0
+
 on property:persist.vendor.verbose_logging_enabled=*
     setprop persist.vendor.sys.modem.logging.enable ${persist.vendor.verbose_logging_enabled}
+    start sysprop_listener_service
 
 # Extensive logging enablement logic:
 #   modem_logging enabled + extensive enabled -> use extensive logging

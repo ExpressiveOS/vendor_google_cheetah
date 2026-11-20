@@ -11,15 +11,18 @@
  */
  -->
 <EccTable>
+    <!-- China Telecom -->
+    <EccEntry mnc="03" number="112" category="0" condition="00000001" />
+    <EccEntry mnc="03" number="911" category="0" condition="00000001" />
+    <EccEntry mnc="03" number="110" category="1" condition="00000001" />
+    <EccEntry mnc="03" number="119" category="4" condition="00000001" />
+    <EccEntry mnc="03" number="120" category="2" condition="00000001" />
+    <EccEntry mnc="03" number="122" category="8" condition="00000001" />
     <!-- #R stands for retail -->
     <EccEntry mnc="#R" number="112" category="0" condition="00000001" />
     <EccEntry mnc="#R" number="911" category="0" condition="00000001" />
-    <EccEntry mnc="#R" number="000" category="0" condition="00000001" />
-    <EccEntry mnc="#R" number="08" category="0" condition="00000001" />
-    <EccEntry mnc="#R" number="118" category="0" condition="00000001" />
-    <EccEntry mnc="#R" number="999" category="0" condition="00000001" />
-    <EccEntry mnc="#R" number="110" category="0" condition="00000101" />
-    <EccEntry mnc="#R" number="119" category="0" condition="00000101" />
-    <EccEntry mnc="#R" number="120" category="0" condition="00000101" />
-    <EccEntry mnc="#R" number="122" category="0" condition="00000101" />
+    <EccEntry mnc="#R" number="110" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="119" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="120" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="122" category="0" condition="10010000" />
 </EccTable>

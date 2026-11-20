@@ -99,11 +99,14 @@ if [ -f $cfg_file ]; then
             modules_dir=${vendor_modules_dir}
             arg="--all=${vendor_modules_dir}/modules.load" ;;
         esac
-        if [[ "${pagesize}" == "16384" && -d "${mode_16k_modules_dir}" ]]; then
+        if [[ "${pagesize}" == "16384" && -d "${mode_16k_modules_dir}" &&
+              -f "${mode_16k_modules_dir}/modules.load" ]]; then
           if [[ ${modules_loaded_16k} -eq 0 ]]; then
-            for f in "${mode_16k_modules_dir}"/*.ko; do
-              insmod "$f"
-            done
+            while read module_16k || [ -n "${module_16k}" ]; do
+              if [[ -n "${module_16k}" ]]; then
+                insmod "${mode_16k_modules_dir}/${module_16k}"
+              fi
+            done < "${mode_16k_modules_dir}/modules.load"
             modules_loaded_16k=1
           fi
         elif [[ -d "${modules_dir}" ]]; then
