@@ -2723,24 +2723,19 @@ PRODUCT_PACKAGES += \
     PixelVibratorFlagsL26 \
     aconfig_gsc_flags_c_lib \
     android.hardware.authsecret-impl.nos \
-    android.hardware.drm-V3-ndk \
     android.hardware.oemlock-impl.nos \
     android.hardware.power.stats-impl.gs-common \
     android.hardware.power.stats-impl.gs201 \
     android.hardware.power.stats-impl.pixel \
-    android.hardware.security.keymint-V6-ndk \
     android.hardware.security.keymint-impl.nos \
     android.hardware.weaver-bridge.nos \
     android.hardware.weaver-impl.nos \
     android.hardware.weaver2-impl.nos \
-    android.hardware.wifi.hostapd-V4-ndk \
-    android.hardware.wifi.supplicant-V6-ndk \
     aoc_aconfig_flags_c_lib \
     biometricsuez \
     com.google.edgetpu.tachyon-ndk \
     com.google.edgetpu_vendor_service-V2-ndk_vendor \
     com.google.hardware.biometrics.fingerprint.fingerprint-ext-V1-ndk \
-    com.google.hardware.pixel.display-V24-ndk \
     com.google.input-V2-ndk \
     com.google.input-V8-ndk \
     fake_gxp_telemetry_reader \
